@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+<body>
+    <!-------------------------------------header -   ------------------------------------>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick ="showmenu()"></i>
+        </nav>
+<h1> Our Certificate &  Online Programs For 2022 </h1>
+    </section>
+
+    <!------------------- blog page content ------------------>
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg" alt="iamges">
+            <h2>Our Certificate &  Online Programs For 2022</h2>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                 when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                  It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                  It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                  and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+               <br><br>
+               Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                 It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                 It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              <br><br>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+               when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+             <br><br>
+             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+               It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+               It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+               and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            <br><br>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+             when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+              It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+              and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+           <br><br>
+                </p>
+
+              <div class="comment-box">
+                  <h3>Leave a comment</h3>
+                  <form class="comment-form">
+                      <input type="text" placeholder="Enter Your Name">
+                      <input type="Email" placeholder="Enter Your Email">
+                      <textarea rows="5" placeholder=" Your comment"></textarea>
+                      <button type = "button" class = "hero-btn red-btn">POST COMMET</button>
+                  </form>
+              </div>  
+        </div>
+
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Maching learnig</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Computer Sciene</span>
+                <span>21</span>
+            </div>
+    </div>
+    </section>
+
+
+ <!-- --------------------Footer --------------- -->
+ 
+ <section class="footer">
+     <h4></h4>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+         Quo rem praesentium, 
+         dolorem libero quam ipsa suscipit.</p>
+
+         <div class="icons">
+             <i class="fa fa-facebook"></i>
+             <i class="fa fa-twitter"></i>
+             <i class="fa fa-instagram"></i>
+             <i class="fa fa-linkedin"></i>
+         </div>
+         <p>Made with  <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+ </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   <!-- for menu using js -->
+    <script>
+        
+        var navLinks = document.getElementById('navLinks');
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right ="-200px";
+        }
+    </script>
+</body>
+</html>
